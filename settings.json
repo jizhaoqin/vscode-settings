@@ -1,0 +1,232 @@
+{
+    /******** appearance settings ********/
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "block",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.indentSize": "tabSize",
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontSize": 30,
+    "editor.fontFamily": "'UbuntuMono Nerd Font', 'monospace', monospace",
+    "editor.formatOnSave": false,
+    "editor.minimap.autohide": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.renderWhitespace": "all",
+    "editor.suggest.showStatusBar": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 150,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.openEditors.visible": 20,
+    "explorer.sortOrder": "type",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.fontSize": 18,
+    "window.autoDetectColorScheme": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.tree.indent": 12,
+    /**************************************************************************/
+    /******** miscellaneous settings ********/
+    /**************************************************************************/
+    /********* settings of languages **********/
+    // plain text settings
+    "[plaintext]": {
+        "editor.wordWrap": "off",
+    },
+    // rust settings
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    // java settings
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk-amd64",
+    "redhat.telemetry.enabled": false,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    // html settings
+    "html.format.wrapLineLength": 220,
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.indentSize": 4,
+    },
+    // toml, json settings
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // python settings
+    "python.languageServer": "Default",
+    "ruff.nativeServer": true,
+    "ruff.lineLength": 150,
+    // "ruff.format.preview": true,
+    "python.defaultInterpreterPath": "/home/jizhaoqin/.local/python3/bin/python3.12",
+    "python.analysis.completeFunctionParens": true,
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.wordWrap": "off",
+        "editor.formatOnType": false,
+        "editor.wordWrapColumn": 150,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    // markdown settings
+    "markdown.preview.fontSize": 18,
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.lineNumbers": "off",
+    },
+    // latex
+    "latex-workshop.bibtex-format.tab": "4 spaces",
+    "[latex]": {
+        "editor.wordWrap": "on",
+        "editor.lineNumbers": "off",
+        "editor.indentSize": "tabSize",
+        "editor.defaultFormatter": "James-Yu.latex-workshop",
+    },
+    // C/C++ settings
+    "[cpp]": {},
+    // shell settings
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    /**************************************************************************/
+    /********** extensions settings ************/
+    "extensions.autoUpdate": false,
+    // jupyter notebook
+    "jupyter.kernels.excludePythonEnvironments": [
+        "/bin/python3",
+        "/usr/bin/python3",
+        "/home/linuxbrew/.linuxbrew/bin/python3"
+    ],
+    "jupyter.askForKernelRestart": false,
+    "notebook.markup.fontSize": 22,
+    "notebook.lineNumbers": "on",
+    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    // git
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "never",
+    // remote
+    "remoteHub.commitDirectlyWarning": "off",
+    // codesnap settings
+    "codesnap.containerPadding": "1em",
+    "codesnap.showLineNumbers": false,
+    "codesnap.showWindowControls": false,
+    // coding tracker
+    "codingTracker.serverURL": "http://localhost:10345",
+    // glassit, make vscode transparent in linux
+    "glassit.alpha": 250,
+    "glassit.step": 3,
+    // cSpell checker settings
+    "cSpell.language": "en,de",
+    "cSpell.enableFiletypes": [
+        "lua",
+        "makefile",
+        "tex"
+    ],
+    // code runner settings
+    "code-runner.runInTerminal": true,
+    // vim settings
+    "vim.leader": " ",
+    "vim.neovimPath": "/snap/bin/nvim",
+    "vim.enableNeovim": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.textColor": "#000000",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                ":q"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "u"
+            ],
+            "after": [
+                "1",
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "1",
+                "5",
+                "j"
+            ]
+        }
+    ],
+    "vim.handleKeys": { // use vscode keybindings
+        "<C-a>": false,
+        "<C-p>": false,
+        "<C-f>": false,
+        "<C-l>": false,
+        "<C-n>": false,
+        "<C-k>": false,
+        "<C-w>": false,
+        "<C-h>": false,
+        "<C-d>": false,
+        "<C-b>": false,
+        "<C-i>": false,
+        "<C-x>": false,
+        "<C-c>": false,
+        "<C-y>": false
+    },
+    "vim.useSystemClipboard": true,
+    "vim.startInInsertMode": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.highlightedyank.duration": 500,
+    "vim.highlightedyank.color": "#F15A02",
+    "vim.whichwrap": "b,s,h,l,>,<,[,]"
+    /**************************************************************************/
+}
