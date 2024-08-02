@@ -31,11 +31,12 @@
   - notebook: jupyter, jupyter keymap
   - (文档自动补全: autoDocstring)
 
-## markdown: 
+## markdown
   - 自动补全等: markdown all in one
   - 风格检查: markdownlint
 
-## latex: latex workshop
+## latex
+  - latex workshop
 
 ## (C/C++)
   - lsp: clangd
