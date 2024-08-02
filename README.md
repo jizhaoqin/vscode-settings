@@ -1,7 +1,7 @@
 # Plugins for VSCode
 
-> 我的`VSCode设置`和`插件推荐`
-> `括号()`代表本人目前不常用
+> - 我的`VSCode设置`和`插件推荐`
+> - `括号()`代表本人目前不常用
 
 ## 主题美化
   - 图标: material icon theme
